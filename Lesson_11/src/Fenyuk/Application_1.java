@@ -8,24 +8,24 @@ public class Application_1 {
 
 	public static void main(String[] args) {
 		
-		Integer Integer [] = new Integer[10];
+		Integer integer [] = new Integer[10];
 		Random r = new Random();
-		int Rmd;
+		int rmd;
 		
 		for(int i = 0; i < 10; i++) {
-			Rmd = r.nextInt(100);
-			Integer[i] = Rmd;
+			rmd = r.nextInt(100);
+			integer[i] = rmd;
 		}
        //System.out.println(Integer[i] + " ");
-		System.out.println(Arrays.toString(Integer));
+		System.out.println(Arrays.toString(integer));
 		
 		System.out.println("After sorting asc");
-		Arrays.sort(Integer);
-		System.out.println(Arrays.toString(Integer));
+		Arrays.sort(integer);
+		System.out.println(Arrays.toString(integer));
 		
 		System.out.println("After sorting desc");
-		Arrays.sort(Integer, Collections.reverseOrder());
-		System.out.println(Arrays.toString(Integer));
+		Arrays.sort(integer, Collections.reverseOrder());
+		System.out.println(Arrays.toString(integer));
 		
 	}
 
